@@ -13,7 +13,7 @@ def plot_image(img, title):
 
     ax1.imshow(img, cmap='gray')
     ax1.set_title(title)
-    ax1.axis='off'
+    ax1.axis('off')
 
 def plot_images(rgb, rgb_name, therm, therm_name):
     fig, (ax1, ax2) = plt.subplots(ncols=2, figsize=(14, 6), sharex=True)

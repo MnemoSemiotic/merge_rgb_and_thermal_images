@@ -6,3 +6,6 @@ def avg_image(im):
     avgd = (1./3.)*lay1 + (1./3.)*lay2 + (1./3.)*lay3
 
     return avgd.astype(int)
+
+def avg_mat(mat1, mat2):
+    return (1./2.)*mat1 + (1./2.)*mat2
